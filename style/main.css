@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(63, 63, 63);
+    background-image: url("../assets/background.png");
+    color: white;
+}
+
+footer {
+    padding: 1.5rem;
+}
+.carousel-img {
+    height: 50vh;
+    object-fit: cover;
+}
+.bg-custom-1 {
+    background-color: rgba(41, 41, 41, 0.75);
+}
+
+.nav-link, link {
+    /* color: #238ce2  !important; */
+    color: white !important;
+}
+
+.nav-link:hover, .link:hover {
+    color: #2c9cf8 !important;
+}
+.carousel-indicators button{
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50%;
+}
+
+.btn-toggle-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+      text-decoration-line: none;
+      text-decoration-style: solid;
+      text-decoration-color: currentcolor;
+      text-decoration-thickness: auto;
+  }
+  .btn-toggle-nav a:hover, .btn-toggle-nav a:focus {
+    color: white;
+    background-color: #238ce2;
+  }
+  .btn-toggle:hover, .btn-toggle:focus {
+    color: white;
+    background-color: #238ce2;
+  }
